@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6494FB642C09F76100D4A416 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494FB632C09F76100D4A416 /* UserListViewModel.swift */; };
+		6494FB662C09F76D00D4A416 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494FB652C09F76D00D4A416 /* UserCellViewModel.swift */; };
+		6494FB682C09FC4D00D4A416 /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494FB672C09FC4D00D4A416 /* TimeLineCell.swift */; };
+		6494FB6A2C09FE2A00D4A416 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494FB692C09FE2A00D4A416 /* TimeLineViewController.swift */; };
+		6494FB6D2C0A046C00D4A416 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494FB6C2C0A046C00D4A416 /* UIImage+Extension.swift */; };
 		64B4FBB12C0334C600382F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FBB02C0334C600382F37 /* AppDelegate.swift */; };
 		64B4FBB82C0334C700382F37 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 64B4FBB72C0334C700382F37 /* Base */; };
 		64B4FBBA2C0334C700382F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B4FBB92C0334C700382F37 /* Assets.xcassets */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6494FB632C09F76100D4A416 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		6494FB652C09F76D00D4A416 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
+		6494FB672C09FC4D00D4A416 /* TimeLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
+		6494FB692C09FE2A00D4A416 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		6494FB6C2C0A046C00D4A416 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		64B4FBAD2C0334C600382F37 /* MVVM_first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_first.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B4FBB02C0334C600382F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64B4FBB72C0334C700382F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6494FB6B2C0A043C00D4A416 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6494FB6C2C0A046C00D4A416 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		64B4FBA42C0334C600382F37 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +76,7 @@
 		64B4FBAF2C0334C600382F37 /* MVVM_first */ = {
 			isa = PBXGroup;
 			children = (
+				6494FB6B2C0A043C00D4A416 /* Extension */,
 				64B4FBC72C0334F400382F37 /* ViewController */,
 				64B4FBC62C0334E100382F37 /* View */,
 				64B4FBC52C0334DB00382F37 /* ViewModel */,
@@ -84,6 +103,8 @@
 		64B4FBC52C0334DB00382F37 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6494FB632C09F76100D4A416 /* UserListViewModel.swift */,
+				6494FB652C09F76D00D4A416 /* UserCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -91,6 +112,7 @@
 		64B4FBC62C0334E100382F37 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6494FB672C09FC4D00D4A416 /* TimeLineCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +120,7 @@
 		64B4FBC72C0334F400382F37 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6494FB692C09FE2A00D4A416 /* TimeLineViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -176,7 +199,12 @@
 				64B4FBC92C03352900382F37 /* User.swift in Sources */,
 				64B4FBCB2C0335BC00382F37 /* API.swift in Sources */,
 				64B4FBCD2C033A2B00382F37 /* ImageDownloader.swift in Sources */,
+				6494FB6D2C0A046C00D4A416 /* UIImage+Extension.swift in Sources */,
 				64B4FBB12C0334C600382F37 /* AppDelegate.swift in Sources */,
+				6494FB642C09F76100D4A416 /* UserListViewModel.swift in Sources */,
+				6494FB6A2C09FE2A00D4A416 /* TimeLineViewController.swift in Sources */,
+				6494FB662C09F76D00D4A416 /* UserCellViewModel.swift in Sources */,
+				6494FB682C09FC4D00D4A416 /* TimeLineCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
